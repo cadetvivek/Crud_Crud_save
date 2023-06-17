@@ -1,0 +1,41 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: aquamarine;
+  }
+  
+  input, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #dataContainer {
+    margin-top: 20px;
+  }
+  
+  #dataList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #dataList li {
+    margin-bottom: 10px;
+  }
+  
+  #deleteAll {
+    margin-top: 10px;
+  }
